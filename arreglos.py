@@ -70,7 +70,6 @@ lista = []
 print("Digite Sus 10 Numeros")
 valores = 10
 valor1 = 0
-asterisco = "*"
 while valor1 < valores:
     print("Llevas Digitado", (valor1 + 1), "Numeros")
     enteros = int(input())
@@ -102,16 +101,13 @@ print("Las Veces Que Este Numero Esta Repetido En El Arreglo Es: ", (cantidad))
 
 #7
 
-lista = []
-print("Digite Sus 8 Numeros")
-valores = 8
-valor1 = 0
-lista = []
+
 print("Digite Sus 8 Numeros")
 valores = 8
 valor1 = 0
 impar = []
 par = []
+lista = []
 while valor1 < valores:
     print("Llevas Digitado", (valor1 + 1), "Numeros")
     enteros = int(input())
@@ -125,18 +121,4 @@ for i in range(valores):
 impar.sort()
 par.sort()
 print("El Arreglo Que Diste Fue: \n"+ str(lista),"\n""Los Numeros Impares Del Arreglo Son: \n"+ str(impar),"\n""Los Numeros Pares Del Arreglo Son: \n"+ str(par))
-impar = []
-par = []
-while valor1 < valores:
-    print("Llevas Digitado", (valor1 + 1), "Numeros")
-    enteros = int(input())
-    lista.append(enteros)
-    valor1 += 1
-for i in range(valores):
-    if lista[i] % 2 == 0:
-        par.append(lista[i])
-    else:
-      impar.append(lista[i])
-impar.sort()
-par.sort()
-print("El Arreglo Que Diste Fue: \n"+ str(lista),"\n""Los Numeros Impares Del Arreglo Son: \n"+ str(impar),"\n""Los Numeros Pares Del Arreglo Son: \n"+ str(par))
+
